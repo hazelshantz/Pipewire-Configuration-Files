@@ -40,3 +40,5 @@ the configuration files provided here, have only been tested under Arch Linux. I
 
 
 ### Aknowledgements:
+
+[@kthread0](https://github.com/kthread0) for helping me with improving my own audio, as I was having issues while recording my guitar under Arch Linux. they are the ones who made these files. I owe them a lot. so if you can, go check their repo and projects. I only take the credit of writing proper documentation for the files.
