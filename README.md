@@ -17,7 +17,7 @@ By default, Pipewire may not have the right settings for your audio devices, pro
 ### Procedure:
 
 - `git clone` this repo, or download it as zip. 
-- Browse to `/etc/pipewire` and make a backup of client.conf, pipewire.conf, pipewire-pulse.conf and jack.conf, by creating a new folder called `backup` or by renaming them to eg, jack.conf.old
+- Browse to `/etc/pipewire` and make a backup of `client.conf`, `pipewire.conf`, `pipewire-pulse.conf` and `jack.conf`, by creating a new folder called `backup` or by renaming them to eg, `jack.conf.old`
 - Elevate yourself with sudo, and by using a GUI file manager, copy the files into `/etc/pipewire`, or use `sudo cp pipewire.conf jack.conf client.conf pipewire-pulse.conf /etc/pipewire`
 - Once done, reboot your system and record with pipewire-jack, or play some music. you should notice an improvement.
 
