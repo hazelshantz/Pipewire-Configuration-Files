@@ -10,9 +10,9 @@ By default, Pipewire may not have the right settings for your audio devices, pro
 ## How to?
 
 ### Requirements
-your system must have Pipewire installed, with all it's dependencies (pipewire-alsa, pipewire-pulse, pipewire-jack, pipewire, wireplumber, pipewire-v4l2)
-the name of the packages (if not installed) may depend on the distro you're using, but most main Linux distros nowadays ship with pipewire, or offer it as main audio solution.
-you must have superuser permissions to manage system files (being able to sudo or doas on your system)
+- Your system must have Pipewire installed, with all it's dependencies `(pipewire-alsa, pipewire-pulse, pipewire-jack, pipewire, wireplumber, pipewire-v4l2)`
+- The name of the packages (if not installed) may depend on the distro you're using, but most main Linux distros nowadays ship with pipewire, or offer it as main audio solution.
+- You must have superuser permissions to manage system files (being able to sudo or doas on your system)
 
 ### Procedure:
 
@@ -29,4 +29,14 @@ Note: easyeffects may suit you more, if you want a more professional way of reco
 - JamesDSP4Linux: https://github.com/Audio4Linux/JDSP4Linux
 - EasyEffects: https://github.com/wwmm/easyeffects
 
-## Aknowledgements:
+### For further audio improvements, I highly recommend you to read this repository:
+
+https://github.com/scottericpetersen/pro-audio-on-linux
+
+### Important note:
+
+the configuration files provided here, have only been tested under Arch Linux. I would love feedback on other distros.
+
+
+
+### Aknowledgements:
