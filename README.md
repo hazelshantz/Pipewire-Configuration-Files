@@ -3,6 +3,7 @@
 This small repo contains configuration files that will improve your audio experience on Linux by setting the right values. the effects of it will be more noticeable when recording audio with pipewire-jack.
 The configuration files are distro-agnostic, so they should work regardless the distro.
 
+# Update: this repo is going archived, due to major breakage issues produced by the files. please use vanilla PipeWire config + Cable app https://github.com/magillos/Cable to manage your config!!
 
 # About:
 By default, Pipewire may not have the right settings for your audio devices, producing crackling/poppling or just giving you bad audio quality when recording, when compared to Windows. By replacing your vanilla Pipewire files with the ones on this repo, it will/should fix this on your system.
